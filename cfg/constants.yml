@@ -1,0 +1,199 @@
+database:
+  adapter: sqlite3
+  database: '../db/stats.sqlite3'
+
+internet:
+  #local_host: bot2.tf2pug.us
+  local_host: tf2-pug-bot
+  server_port: 27060
+
+irc:
+  server: Gigenet.IL.US.GameSurge.net
+  port: 6667
+
+  nick: TF2Pug-Bot
+  channel: '#tf2.pug.na'
+
+  auth: Aristotlepugbot
+  auth_password: fzcNNSel
+  auth_serv: AuthServ@Services.GameSurge.net
+
+messengers:
+  count: 3
+  nick: TF2Pug-Messenger
+  mps: 0.5
+
+delays:
+  afk: 45
+  picking: 45
+  server: 5
+  manager: 0.05
+
+settings:
+  afk: 600
+  used: 4
+
+teams:
+  details:
+    - name: Blu Team
+      colour: 11
+    - name: Red Team
+      colour: 4
+  players: 6
+  classes:
+    scout: 2
+    soldier: 2
+    demo: 1
+    medic: 1
+    captain: 1
+
+servers:
+  - name: chicago1
+    ip: chicago1.tf2pug.com
+    port: 27015
+    password: tf2pug
+    rcon: 5HgZKzgs
+    ftp:
+      ip: chicago1.tf2pug.com
+      port: 21
+      user: server_chi1tf2pug
+      password: LmOzCmjFLgzZUuFXA35m
+      dir: tf
+
+  - name: chicago2
+    ip: chicago2.tf2pug.com
+    port: 27015
+    password: tf2pug
+    rcon: 5HgZKzgs
+    ftp:
+      ip: chicago2.tf2pug.com
+      port: 21
+      user: server_chi2tf2pug
+      password: vk6xOxh9lEdik6KPSLHL
+      dir: tf
+
+  - name: dallas1
+    ip: dallas1.tf2pug.com
+    port: 27015
+    password: tf2pug
+    rcon: 5HgZKzgs
+    ftp:
+      ip: dallas1.tf2pug.com
+      port: 21
+      user: server_dal1tf2pug
+      password: CJqV6EeidPDb39w6uoHw
+      dir: tf
+
+stv:
+  url: http://demos.tf2pug.com
+  storage: ../stv/
+  ftp:
+    ip: hosted5.nfoservers.com
+    user: chi1tf2pug
+    password: jzCD30aPYo
+    dir: public/stv
+  delete:
+    remote: true
+    local: true
+
+logs:
+  url: http://logs.tf2pug.com
+  storage: ../logs/
+  ftp:
+    ip: hosted5.nfoservers.com
+    user: chi1tf2pug
+    password: jzCD30aPYo
+    dir: public/logs
+  delete:
+    remote: true
+    local: true
+
+mumble:
+  ip: tf2pug.commandchannel.com
+  port: 31472
+  password: tf2pug
+
+rotation:
+  exclude: 1
+  maps:
+    - name: badlands
+      file: cp_badlands
+      weight: 8
+
+    - name: granary
+      file: cp_granary
+      weight: 6
+
+    - name: snakewater
+      file: cp_snakewater
+      weight: 4
+
+    - name: gullywash
+      file: cp_gullywash_final1
+      weight: 4
+
+    - name: pro viaduct
+      file: koth_pro_viaduct_rc3
+      weight: 4
+
+    - name: warmfront
+      file: cp_warmfront
+      weight: 3
+
+#   - name: process
+#     file: cp_process_b9
+#     weight: 3
+
+    - name: obscure
+      file: cp_obscure_remake_rc1
+      weight: 2
+
+    - name: ashville
+      file: koth_ashville_rc1
+      weight: 2
+
+    - name: yukon
+      file: cp_yukon_final
+      weight: 2
+
+    - name: follower
+      file: cp_follower
+      weight: 1
+
+reward:
+  min: 10
+  ratio: 0.3
+  classes:
+    - medic
+    - captain
+
+captain:
+  min: 40
+
+states:
+  waiting: 0
+  afk: 1
+  delay: 2
+  picking: 3
+  server: 4
+
+colours:
+  white: 0
+  black: 1
+  navy: 2
+  green: 3
+  red: 4
+  brown: 5
+  purple: 6
+  orange: 7
+  yellow: 8
+  lime: 9
+  teal: 10
+  aqua: 11
+  blue: 12
+  pink: 13
+  grey: 14
+  lgrey: 15
+
+formatting:
+  justify: 15

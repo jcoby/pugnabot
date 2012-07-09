@@ -1,0 +1,833 @@
+[2012/04/14 03:33:14.118] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ffaf08 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ffa3c8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `channel`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ff9360 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `channel`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `join`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fdd408 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `join`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `part`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fdc530 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `part`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `quit`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fdb658 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `quit`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `kick`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fda780 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `kick`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering listener for type `nick`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fd8818 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `nick`
+[2012/04/14 03:33:14.119] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002fd8070 @prefix=/^!/, @pattern=/add(?: (.+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fd8070 @prefix=/^!/, @pattern=/add(?: (.+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002fd70f8 @prefix=/^!/, @pattern=/remove/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fd70f8 @prefix=/^!/, @pattern=/remove/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002fd61a8 @prefix=/^!/, @pattern=/list/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fd61a8 @prefix=/^!/, @pattern=/list/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002fd5258 @prefix=/^!/, @pattern=/players/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002fd5258 @prefix=/^!/, @pattern=/players/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f55a58 @prefix=/^!/, @pattern=/need/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f55a58 @prefix=/^!/, @pattern=/need/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f548d8 @prefix=/^!/, @pattern=/afk/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f548d8 @prefix=/^!/, @pattern=/afk/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f53488 @prefix=/^!/, @pattern=/stats(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f53488 @prefix=/^!/, @pattern=/stats(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f503a0 @prefix=/^!/, @pattern=/nick(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f503a0 @prefix=/^!/, @pattern=/nick(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f4f450 @prefix=/^!/, @pattern=/reward/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f4f450 @prefix=/^!/, @pattern=/reward/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f4e348 @prefix=/^!/, @pattern=/whattimeisit/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f4e348 @prefix=/^!/, @pattern=/whattimeisit/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f4cef8 @prefix=/^!/, @pattern=/pick(?: ([\S]+) ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f4cef8 @prefix=/^!/, @pattern=/pick(?: ([\S]+) ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f48b78 @prefix=/^!/, @pattern=/random(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f48b78 @prefix=/^!/, @pattern=/random(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f47c28 @prefix=/^!/, @pattern=/captain/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f47c28 @prefix=/^!/, @pattern=/captain/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f46cd8 @prefix=/^!/, @pattern=/format/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f46cd8 @prefix=/^!/, @pattern=/format/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002f45d88 @prefix=/^!/, @pattern=/map/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002f45d88 @prefix=/^!/, @pattern=/map/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ee05a0 @prefix=/^!/, @pattern=/server/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ee05a0 @prefix=/^!/, @pattern=/server/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002edf650 @prefix=/^!/, @pattern=/ip/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002edf650 @prefix=/^!/, @pattern=/ip/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ede700 @prefix=/^!/, @pattern=/last/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ede700 @prefix=/^!/, @pattern=/last/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.121] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002edd7b0 @prefix=/^!/, @pattern=/logs/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002edd7b0 @prefix=/^!/, @pattern=/logs/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ecd180 @prefix=/^!/, @pattern=/mumble/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ecd180 @prefix=/^!/, @pattern=/mumble/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ecbc40 @prefix=/^!/, @pattern=/rotation/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ecbc40 @prefix=/^!/, @pattern=/rotation/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002eca700 @prefix=/^!/, @pattern=/stv/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002eca700 @prefix=/^!/, @pattern=/stv/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ec4670 @prefix=/^!/, @pattern=/status/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ec4670 @prefix=/^!/, @pattern=/status/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ec30e0 @prefix=/^!/, @pattern=/man/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ec30e0 @prefix=/^!/, @pattern=/man/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ec2190 @prefix=/^!/, @pattern=/code/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ec2190 @prefix=/^!/, @pattern=/code/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ec1240 @prefix=/^!/, @pattern=/fadd ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ec1240 @prefix=/^!/, @pattern=/fadd ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e87338 @prefix=/^!/, @pattern=/fremove ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.122] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e87338 @prefix=/^!/, @pattern=/fremove ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e862d0 @prefix=/^!/, @pattern=/fpick ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e862d0 @prefix=/^!/, @pattern=/fpick ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e85218 @prefix=/^!/, @pattern=/replace ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e85218 @prefix=/^!/, @pattern=/replace ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e84188 @prefix=/^!/, @pattern=/restrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e84188 @prefix=/^!/, @pattern=/restrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e0bcb0 @prefix=/^!/, @pattern=/authorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e0bcb0 @prefix=/^!/, @pattern=/authorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e0abf8 @prefix=/^!/, @pattern=/cookie(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e0abf8 @prefix=/^!/, @pattern=/cookie(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e09ca8 @prefix=/^!/, @pattern=/fmap ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e09ca8 @prefix=/^!/, @pattern=/fmap ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dee3b8 @prefix=/^!/, @pattern=/nextmap/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dee3b8 @prefix=/^!/, @pattern=/nextmap/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ded468 @prefix=/^!/, @pattern=/nextserver/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.123] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ded468 @prefix=/^!/, @pattern=/nextserver/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dec270 @prefix=/^!/, @pattern=/reset/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dec270 @prefix=/^!/, @pattern=/reset/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002deb320 @prefix=/^!/, @pattern=/endgame/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002deb320 @prefix=/^!/, @pattern=/endgame/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de3d28 @prefix=/^!/, @pattern=/reload/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de3d28 @prefix=/^!/, @pattern=/reload/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de2dd8 @prefix=/^!/, @pattern=/quit/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de2dd8 @prefix=/^!/, @pattern=/quit/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de1e88 @prefix=/^!/, @pattern=/crestrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de1e88 @prefix=/^!/, @pattern=/crestrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de0f38 @prefix=/^!/, @pattern=/cauthorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de0f38 @prefix=/^!/, @pattern=/cauthorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d922c0 @prefix=/^!/, @pattern=/restrictions/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d922c0 @prefix=/^!/, @pattern=/restrictions/i, @suffix=nil>`, reacting on `message`
+[2012/04/14 03:33:14.124] !! [plugin] pug: Registering timer with interval `1` for method `timer_list`
+[2012/04/14 03:33:14.124] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d901c8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:14.125] !! [plugin] pug: Registering timer with interval `30` for method `timer_restriction`
+[2012/04/14 03:33:14.125] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d8e968 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:14.334] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/14 03:33:15.443] !! registering timer...
+[2012/04/14 03:33:15.443] !! registering timer...
+[2012/04/14 03:33:19.118] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c078b0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:19.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c00d08 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:19.119] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/14 03:33:24.119] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x0000000263e4d8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:24.120] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x0000000263d970 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/14 03:33:24.120] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/14 04:13:05.270] !! /root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/sockets/steam_socket.rb:44:in `receive_packet': The operation timed out. (TimeoutException)
+[2012/04/14 04:13:05.270] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/sockets/rcon_socket.rb:35:in `reply'
+[2012/04/14 04:13:05.270] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/servers/source_server.rb:46:in `rcon_auth'
+[2012/04/14 04:13:05.270] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/servers/source_server.rb:30:in `rcon_connect'
+[2012/04/14 04:13:05.270] !! 	/root/tf2.pug.na/src/server.rb:8:in `tournament_info'
+[2012/04/14 04:13:05.270] !! 	/root/tf2.pug.na/src/logic/server.rb:129:in `block in list_status'
+[2012/04/14 04:13:05.270] !! 	/root/tf2.pug.na/src/logic/server.rb:188:in `block (2 levels) in thread_servers'
+[2012/04/14 07:01:27.339] !! /root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/sockets/steam_socket.rb:44:in `receive_packet': The operation timed out. (TimeoutException)
+[2012/04/14 07:01:27.339] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/sockets/rcon_socket.rb:35:in `reply'
+[2012/04/14 07:01:27.339] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/servers/source_server.rb:46:in `rcon_auth'
+[2012/04/14 07:01:27.339] !! 	/root/.gem/bundler/gems/steam-condenser-114b24b90d45/ruby/lib/steam/servers/source_server.rb:30:in `rcon_connect'
+[2012/04/14 07:01:27.339] !! 	/root/tf2.pug.na/src/server.rb:8:in `tournament_info'
+[2012/04/14 07:01:27.339] !! 	/root/tf2.pug.na/src/logic/server.rb:129:in `block in list_status'
+[2012/04/14 07:01:27.339] !! 	/root/tf2.pug.na/src/logic/server.rb:188:in `block (2 levels) in thread_servers'
+[2012/04/15 00:20:57.032] !! /usr/local/lib/ruby/1.9.1/net/ftp.rb:273:in `getresp': 550 Delete operation failed.
+ (Net::FTPPermError)
+[2012/04/15 00:20:57.032] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:294:in `block in sendcmd'
+[2012/04/15 00:20:57.032] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/15 00:20:57.032] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:292:in `sendcmd'
+[2012/04/15 00:20:57.032] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:706:in `delete'
+[2012/04/15 00:20:57.032] !! 	/root/tf2.pug.na/src/logs.rb:74:in `block in purge'
+[2012/04/15 00:20:57.032] !! 	/root/tf2.pug.na/src/logs.rb:70:in `each'
+[2012/04/15 00:20:57.032] !! 	/root/tf2.pug.na/src/logs.rb:70:in `purge'
+[2012/04/15 00:20:57.032] !! 	/root/tf2.pug.na/src/logic/server.rb:72:in `block in update_logs'
+[2012/04/15 00:20:57.032] !! 	/root/tf2.pug.na/src/logic/server.rb:188:in `block (2 levels) in thread_servers'
+[2012/04/17 00:06:36.853] !! /usr/local/lib/ruby/1.9.1/net/ftp.rb:273:in `getresp': 550 Delete operation failed.
+ (Net::FTPPermError)
+[2012/04/17 00:06:36.856] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:294:in `block in sendcmd'
+[2012/04/17 00:06:36.856] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 00:06:36.856] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:292:in `sendcmd'
+[2012/04/17 00:06:36.856] !! 	/usr/local/lib/ruby/1.9.1/net/ftp.rb:706:in `delete'
+[2012/04/17 00:06:36.856] !! 	/root/tf2.pug.na/src/logs.rb:74:in `block in purge'
+[2012/04/17 00:06:36.856] !! 	/root/tf2.pug.na/src/logs.rb:70:in `each'
+[2012/04/17 00:06:36.856] !! 	/root/tf2.pug.na/src/logs.rb:70:in `purge'
+[2012/04/17 00:06:36.856] !! 	/root/tf2.pug.na/src/logic/server.rb:72:in `block in update_logs'
+[2012/04/17 00:06:36.856] !! 	/root/tf2.pug.na/src/logic/server.rb:188:in `block (2 levels) in thread_servers'
+[2012/04/17 21:51:21.366] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:51:21.366] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:51:21.366] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `block in method_missing'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:122:in `scoping'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `method_missing'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:183:in `build_arel'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:150:in `arel'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:64:in `to_a'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:333:in `find_first'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:122:in `first'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:234:in `find_by_attributes'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:987:in `method_missing'
+[2012/04/17 21:51:21.367] !! 	/root/tf2.pug.na/src/logic/players.rb:94:in `find_user'
+[2012/04/17 21:51:21.367] !! 	/root/tf2.pug.na/src/logic/players.rb:127:in `reward_player'
+[2012/04/17 21:51:21.367] !! 	/root/tf2.pug.na/src/pug.rb:96:in `event_join'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:175:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:51:21.367] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:51:22.649] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:51:22.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:51:22.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:51:22.650] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:51:22.650] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:51:22.650] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:51:22.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:51:27.863] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:51:27.864] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `block in method_missing'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:122:in `scoping'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `method_missing'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:183:in `build_arel'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:150:in `arel'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:64:in `to_a'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:333:in `find_first'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:122:in `first'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:234:in `find_by_attributes'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:987:in `method_missing'
+[2012/04/17 21:51:27.864] !! 	/root/tf2.pug.na/src/logic/players.rb:94:in `find_user'
+[2012/04/17 21:51:27.864] !! 	/root/tf2.pug.na/src/logic/players.rb:19:in `add_player'
+[2012/04/17 21:51:27.864] !! 	/root/tf2.pug.na/src/pug.rb:130:in `command_add'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `call'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:51:27.864] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:51:49.894] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:51:49.894] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:111:in `with_connection'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/arel-2.0.9/lib/arel/visitors/to_sql.rb:17:in `accept'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/arel-2.0.9/lib/arel/select_manager.rb:169:in `join_sql'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:379:in `references_eager_loaded_tables?'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:343:in `eager_loading?'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:64:in `to_a'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:13:in `collect'
+[2012/04/17 21:51:49.894] !! 	/root/tf2.pug.na/src/pug.rb:414:in `admin_restrictions'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `call'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:51:49.894] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:51:52.649] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:51:52.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:51:52.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:51:52.649] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:51:52.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:51:52.649] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:51:52.650] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:51:52.650] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:51:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:52:01.416] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:52:01.416] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:52:01.416] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:52:01.416] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:52:01.417] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:52:01.417] !! 	/root/tf2.pug.na/src/logic/players.rb:127:in `reward_player'
+[2012/04/17 21:52:01.417] !! 	/root/tf2.pug.na/src/pug.rb:96:in `event_join'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:175:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:52:01.417] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:52:22.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:52:22.650] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:52:22.650] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:52:22.650] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:52:22.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:52:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:52:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:52:37.441] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:52:37.441] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:52:37.441] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:52:37.442] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:52:37.442] !! 	/root/tf2.pug.na/src/logic/players.rb:19:in `add_player'
+[2012/04/17 21:52:37.442] !! 	/root/tf2.pug.na/src/pug.rb:130:in `command_add'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `call'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:52:37.442] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:52:52.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:52:52.650] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:52:52.650] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:52:52.650] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:52:52.650] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:52:58.790] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:52:58.790] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `block in method_missing'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:122:in `scoping'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:367:in `method_missing'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:183:in `build_arel'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:150:in `arel'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation.rb:64:in `to_a'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:333:in `find_first'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:122:in `first'
+[2012/04/17 21:52:58.790] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/finder_methods.rb:234:in `find_by_attributes'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:987:in `method_missing'
+[2012/04/17 21:52:58.791] !! 	/root/tf2.pug.na/src/logic/players.rb:94:in `find_user'
+[2012/04/17 21:52:58.791] !! 	/root/tf2.pug.na/src/logic/players.rb:19:in `add_player'
+[2012/04/17 21:52:58.791] !! 	/root/tf2.pug.na/src/pug.rb:130:in `command_add'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `call'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:52:58.791] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:53:03.087] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:53:03.087] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:53:03.087] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:53:03.087] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:53:03.087] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:53:03.088] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:53:03.088] !! 	/root/tf2.pug.na/src/logic/players.rb:127:in `reward_player'
+[2012/04/17 21:53:03.088] !! 	/root/tf2.pug.na/src/pug.rb:96:in `event_join'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:175:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:53:03.088] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:53:22.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:53:22.650] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:53:22.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:53:22.651] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:53:22.651] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:53:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:53:51.817] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:53:51.817] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:53:51.817] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:53:51.818] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:53:51.818] !! 	/root/tf2.pug.na/src/logic/players.rb:127:in `reward_player'
+[2012/04/17 21:53:51.818] !! 	/root/tf2.pug.na/src/pug.rb:96:in `event_join'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:175:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:53:51.818] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:53:52.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:53:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:53:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:53:52.650] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:53:52.650] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:53:52.651] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:53:52.651] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:53:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:54:22.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:54:22.651] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:54:22.651] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:54:22.651] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:54:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:54:52.650] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:54:52.651] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:54:52.651] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:54:52.651] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:54:52.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:55:14.751] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:55:14.751] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:55:14.751] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:55:14.751] !! 	/root/tf2.pug.na/src/logic/players.rb:127:in `reward_player'
+[2012/04/17 21:55:14.751] !! 	/root/tf2.pug.na/src/pug.rb:96:in `event_join'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:175:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:55:14.751] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:55:22.349] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:55:22.350] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:441:in `where'
+[2012/04/17 21:55:22.350] !! 	/root/tf2.pug.na/src/logic/players.rb:95:in `find_user'
+[2012/04/17 21:55:22.350] !! 	/root/tf2.pug.na/src/logic/players.rb:19:in `add_player'
+[2012/04/17 21:55:22.350] !! 	/root/tf2.pug.na/src/pug.rb:130:in `command_add'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `call'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:207:in `block (2 levels) in __register_with_bot'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `instance_exec'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:637:in `block (2 levels) in invoke'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `catch'
+[2012/04/17 21:55:22.350] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/bot.rb:636:in `block in invoke'
+[2012/04/17 21:55:22.651] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:55:22.651] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:55:22.651] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:55:22.651] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:55:22.651] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:55:52.651] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:55:52.651] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:55:52.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:55:52.652] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:55:52.652] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:55:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:56:22.651] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:56:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:56:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:56:22.651] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:56:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:56:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:56:22.651] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:56:22.652] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:56:22.652] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:56:22.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:56:52.651] !! /root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:202:in `block (2 levels) in checkout': could not obtain a database connection within 5 seconds.  The max pool size is currently 5; consider increasing it. (ActiveRecord::ConnectionTimeoutError)
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `loop'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:187:in `block in checkout'
+[2012/04/17 21:56:52.652] !! 	/usr/local/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:186:in `checkout'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:94:in `connection'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:317:in `retrieve_connection'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:97:in `retrieve_connection'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:89:in `connection'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1330:in `replace_bind_variables'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1317:in `sanitize_sql_array'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/base.rb:1224:in `sanitize_sql_for_conditions'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:224:in `build_where'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/activerecord-3.0.5/lib/active_record/relation/query_methods.rb:77:in `where'
+[2012/04/17 21:56:52.652] !! 	/root/tf2.pug.na/src/logic/players.rb:195:in `update_restrictions'
+[2012/04/17 21:56:52.652] !! 	/root/tf2.pug.na/src/pug.rb:121:in `timer_restriction'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:234:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `call'
+[2012/04/17 21:56:52.652] !! 	/root/.gem/gems/cinch-1.1.3/lib/cinch/plugin.rb:242:in `block (5 levels) in __register_with_bot'
+[2012/04/17 21:57:22.474] !! Lost connection.{"Timeleft"=>"23:32", "Score"=>"1:0"}
+{"Timeleft"=>"25:45", "Score"=>"0:0"}
+{"Timeleft"=>"24:28", "Score"=>"0:1"}
+{"Timeleft"=>"26:55", "Score"=>"0:0"}
+{"Timeleft"=>"21:02", "Score"=>"1:0"}
+{"Timeleft"=>"17:33", "Score"=>"0:2"}
+{"Timeleft"=>"00:59", "Score"=>"4:3"}
+{"Timeleft"=>"15:42", "Score"=>"0:2"}
+{"Timeleft"=>"04:24", "Score"=>"1:3"}
+{"Timeleft"=>"26:38", "Score"=>"0:1"}
+{"Timeleft"=>"17:06", "Score"=>"0:2"}
+{"Timeleft"=>"06:16", "Score"=>"2:2"}
+{"Timeleft"=>"05:23", "Score"=>"2:2"}
+{"Timeleft"=>"25:45", "Score"=>"0:0"}
+{"Timeleft"=>"13:07", "Score"=>"0:2"}
+{"Timeleft"=>"11:26", "Score"=>"2:4"}
+{"Timeleft"=>"22:25", "Score"=>"3:0"}
+{"Timeleft"=>"05:05", "Score"=>"4:1"}
+{"Timeleft"=>"18:22", "Score"=>"0:1"}
+{"Timeleft"=>"17:57", "Score"=>"0:1"}
+{"Timeleft"=>"14:03", "Score"=>"1:1"}
+{"Timeleft"=>"06:48", "Score"=>"3:1"}
+{"Timeleft"=>"20:16", "Score"=>"0:0"}
+{"Timeleft"=>"21:43", "Score"=>"1:0"}
+{"Timeleft"=>"17:17", "Score"=>"0:2"}
+{"Timeleft"=>"03:34", "Score"=>"4:4"}
+{"Timeleft"=>"29:52", "Score"=>"0:0"}
+{"Timeleft"=>"19:00", "Score"=>"1:1"}
+{"Timeleft"=>"03:21", "Score"=>"2:4"}
+{"Timeleft"=>"11:21", "Score"=>"2:2"}
+{"Timeleft"=>"26:00", "Score"=>"0:1"}
+{"Timeleft"=>"03:36", "Score"=>"3:2"}
+{"Timeleft"=>"16:08", "Score"=>"1:2"}
+{"Timeleft"=>"05:44", "Score"=>"3:3"}
+{"Timeleft"=>"07:22", "Score"=>"3:3"}
+{"Timeleft"=>"07:51", "Score"=>"4:4"}
+{"Timeleft"=>"28:51", "Score"=>"0:0"}
+{"Timeleft"=>"25:38", "Score"=>"0:0"}
+{"Timeleft"=>"27:11", "Score"=>"0:0"}
+{"Timeleft"=>"29:16", "Score"=>"0:0"}
+{"Timeleft"=>"29:58", "Score"=>"0:0"}
+{"Timeleft"=>"25:31", "Score"=>"0:0"}
+{"Timeleft"=>"23:02", "Score"=>"0:0"}
+{"Timeleft"=>"27:28", "Score"=>"0:0"}
+{"Timeleft"=>"25:41", "Score"=>"0:0"}
+{"Timeleft"=>"21:14", "Score"=>"0:0"}
+{"Timeleft"=>"20:04", "Score"=>"1:0"}
+{"Timeleft"=>"15:37", "Score"=>"1:0"}
+{"Timeleft"=>"11:07", "Score"=>"2:2"}
+{"Timeleft"=>"06:40", "Score"=>"1:3"}
+{"Timeleft"=>"09:56", "Score"=>"3:2"}
+{"Timeleft"=>"05:29", "Score"=>"1:3"}
+{"Timeleft"=>"01:57", "Score"=>"1:3"}
+{"Timeleft"=>"06:23", "Score"=>"3:2"}
+{"Timeleft"=>"05:29", "Score"=>"3:3"}
+{"Timeleft"=>"00:00", "Score"=>"3:3"}
+{"Timeleft"=>"10:42", "Score"=>"1:0"}
+{"Timeleft"=>"04:14", "Score"=>"3:1"}
+{"Timeleft"=>"13:02", "Score"=>"0:4"}
+{"Timeleft"=>"28:25", "Score"=>"0:0"}
+{"Timeleft"=>"03:55", "Score"=>"1:3"}
+{"Timeleft"=>"17:33", "Score"=>"2:0"}
+{"Timeleft"=>"10:14", "Score"=>"3:4"}
+{"Timeleft"=>"17:23", "Score"=>"3:0"}
+{"Timeleft"=>"17:19", "Score"=>"3:0"}
+{"Timeleft"=>"21:08", "Score"=>"1:0"}
+{"Timeleft"=>"05:32", "Score"=>"1:2"}
+{"Timeleft"=>"20:23", "Score"=>"4:0"}
+{"Timeleft"=>"03:22", "Score"=>"3:1"}
+{"Timeleft"=>"00:39", "Score"=>"3:1"}
+{"Timeleft"=>"00:00", "Score"=>"3:1"}
+{"Timeleft"=>"00:00", "Score"=>"4:1"}
+{"Timeleft"=>"15:19", "Score"=>"2:2"}
+{"Timeleft"=>"07:55", "Score"=>"2:4"}
+{"Timeleft"=>"02:01", "Score"=>"3:0"}
+{"Timeleft"=>"02:36", "Score"=>"3:2"}
+{"Timeleft"=>"14:41", "Score"=>"2:1"}
+{"Timeleft"=>"05:33", "Score"=>"2:3"}
+{"Timeleft"=>"25:25", "Score"=>"1:0"}
+{"Timeleft"=>"27:53", "Score"=>"0:0"}
+{"Timeleft"=>"27:09", "Score"=>"1:0"}
+{"Timeleft"=>"17:14", "Score"=>"2:1"}
+{"Timeleft"=>"08:47", "Score"=>"2:1"}
+{"Timeleft"=>"03:36", "Score"=>"2:2"}
+{"Timeleft"=>"02:43", "Score"=>"2:2"}
+{"Timeleft"=>"00:49", "Score"=>"2:2"}
+{"Timeleft"=>"00:00", "Score"=>"2:2"}
+{"Timeleft"=>"00:00", "Score"=>"2:2"}
+{"Timeleft"=>"13:53", "Score"=>"1:1"}
+[2012/04/17 21:57:44.472] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e8c4f0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e8b9b0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `channel`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e8a948 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `channel`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `join`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e6e888 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `join`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `part`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e6d9b0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `part`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `quit`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e6cad8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `quit`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `kick`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e6bc00 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `kick`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering listener for type `nick`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e69db0 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `nick`
+[2012/04/17 21:57:44.473] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e69608 @prefix=/^!/, @pattern=/add(?: (.+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e69608 @prefix=/^!/, @pattern=/add(?: (.+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e68690 @prefix=/^!/, @pattern=/remove/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e68690 @prefix=/^!/, @pattern=/remove/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e67740 @prefix=/^!/, @pattern=/list/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e67740 @prefix=/^!/, @pattern=/list/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e667f0 @prefix=/^!/, @pattern=/players/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e667f0 @prefix=/^!/, @pattern=/players/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e4d2a0 @prefix=/^!/, @pattern=/need/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e4d2a0 @prefix=/^!/, @pattern=/need/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e4c350 @prefix=/^!/, @pattern=/afk/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e4c350 @prefix=/^!/, @pattern=/afk/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e4b400 @prefix=/^!/, @pattern=/stats(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e4b400 @prefix=/^!/, @pattern=/stats(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e4a4b0 @prefix=/^!/, @pattern=/nick(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e4a4b0 @prefix=/^!/, @pattern=/nick(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e264e8 @prefix=/^!/, @pattern=/reward/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e264e8 @prefix=/^!/, @pattern=/reward/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e25598 @prefix=/^!/, @pattern=/whattimeisit/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.474] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e25598 @prefix=/^!/, @pattern=/whattimeisit/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e243a0 @prefix=/^!/, @pattern=/pick(?: ([\S]+) ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e243a0 @prefix=/^!/, @pattern=/pick(?: ([\S]+) ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e23450 @prefix=/^!/, @pattern=/random(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e23450 @prefix=/^!/, @pattern=/random(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e18d20 @prefix=/^!/, @pattern=/captain/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e18d20 @prefix=/^!/, @pattern=/captain/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e17dd0 @prefix=/^!/, @pattern=/format/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e17dd0 @prefix=/^!/, @pattern=/format/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e16e80 @prefix=/^!/, @pattern=/map/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e16e80 @prefix=/^!/, @pattern=/map/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002e15f30 @prefix=/^!/, @pattern=/server/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e15f30 @prefix=/^!/, @pattern=/server/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002deb690 @prefix=/^!/, @pattern=/ip/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002deb690 @prefix=/^!/, @pattern=/ip/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dea3d0 @prefix=/^!/, @pattern=/last/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dea3d0 @prefix=/^!/, @pattern=/last/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.475] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de8fa8 @prefix=/^!/, @pattern=/logs/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de8fa8 @prefix=/^!/, @pattern=/logs/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de6028 @prefix=/^!/, @pattern=/mumble/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de6028 @prefix=/^!/, @pattern=/mumble/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de50d8 @prefix=/^!/, @pattern=/rotation/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de50d8 @prefix=/^!/, @pattern=/rotation/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de4020 @prefix=/^!/, @pattern=/stv/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de4020 @prefix=/^!/, @pattern=/stv/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002de2d88 @prefix=/^!/, @pattern=/status/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002de2d88 @prefix=/^!/, @pattern=/status/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ddaf70 @prefix=/^!/, @pattern=/man/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ddaf70 @prefix=/^!/, @pattern=/man/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dda020 @prefix=/^!/, @pattern=/code/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dda020 @prefix=/^!/, @pattern=/code/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dd90d0 @prefix=/^!/, @pattern=/fadd ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dd90d0 @prefix=/^!/, @pattern=/fadd ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.476] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002dd8180 @prefix=/^!/, @pattern=/fremove ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002dd8180 @prefix=/^!/, @pattern=/fremove ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d066f8 @prefix=/^!/, @pattern=/fpick ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d066f8 @prefix=/^!/, @pattern=/fpick ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d05500 @prefix=/^!/, @pattern=/replace ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d05500 @prefix=/^!/, @pattern=/replace ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d03ed0 @prefix=/^!/, @pattern=/restrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d03ed0 @prefix=/^!/, @pattern=/restrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d021e8 @prefix=/^!/, @pattern=/authorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d021e8 @prefix=/^!/, @pattern=/authorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d01108 @prefix=/^!/, @pattern=/cookie(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d01108 @prefix=/^!/, @pattern=/cookie(?: ([\S]+))?/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002d000a0 @prefix=/^!/, @pattern=/fmap ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002d000a0 @prefix=/^!/, @pattern=/fmap ([\S]+) ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002cfefc0 @prefix=/^!/, @pattern=/nextmap/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002cfefc0 @prefix=/^!/, @pattern=/nextmap/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.477] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ca5128 @prefix=/^!/, @pattern=/nextserver/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ca5128 @prefix=/^!/, @pattern=/nextserver/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ca40c0 @prefix=/^!/, @pattern=/reset/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ca40c0 @prefix=/^!/, @pattern=/reset/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ca2f90 @prefix=/^!/, @pattern=/endgame/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ca2f90 @prefix=/^!/, @pattern=/endgame/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ca1dc0 @prefix=/^!/, @pattern=/reload/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ca1dc0 @prefix=/^!/, @pattern=/reload/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002ca0c18 @prefix=/^!/, @pattern=/quit/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002ca0c18 @prefix=/^!/, @pattern=/quit/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002c9fc78 @prefix=/^!/, @pattern=/crestrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c9fc78 @prefix=/^!/, @pattern=/crestrict ([\S]+) (.+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002c9ed28 @prefix=/^!/, @pattern=/cauthorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c9ed28 @prefix=/^!/, @pattern=/cauthorize ([\S]+)/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering executor with pattern `#<Cinch::Pattern:0x00000002c9ddd8 @prefix=/^!/, @pattern=/restrictions/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c9ddd8 @prefix=/^!/, @pattern=/restrictions/i, @suffix=nil>`, reacting on `message`
+[2012/04/17 21:57:44.478] !! [plugin] pug: Registering timer with interval `1` for method `timer_list`
+[2012/04/17 21:57:44.479] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c34c98 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:44.479] !! [plugin] pug: Registering timer with interval `30` for method `timer_restriction`
+[2012/04/17 21:57:44.479] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002c33690 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:44.664] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:44.846] !! Lost connection.
+[2012/04/17 21:57:44.846] !! Waiting 2 seconds before reconnecting
+[2012/04/17 21:57:46.847] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:46.999] !! Lost connection.
+[2012/04/17 21:57:47.000] !! Waiting 4 seconds before reconnecting
+[2012/04/17 21:57:49.472] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e92a58 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:49.472] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e918d8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:49.472] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:49.541] !! Lost connection.
+[2012/04/17 21:57:49.541] !! Waiting 2 seconds before reconnecting
+[2012/04/17 21:57:51.000] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:51.242] !! Lost connection.
+[2012/04/17 21:57:51.242] !! Waiting 8 seconds before reconnecting
+[2012/04/17 21:57:51.542] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:51.631] !! Lost connection.
+[2012/04/17 21:57:51.632] !! Waiting 4 seconds before reconnecting
+[2012/04/17 21:57:54.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e257c8 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:54.473] !! [on handler] Registering handler with pattern `#<Cinch::Pattern:0x00000002e24918 @prefix=nil, @pattern=//, @suffix=nil>`, reacting on `connect`
+[2012/04/17 21:57:54.473] !! Connecting to Gigenet.IL.US.GameSurge.net:6667
+[2012/04/17 21:57:54.581] !! Lost connection.
+[2012/04/17 21:57:54.581] !! Waiting 2 seconds before reconnecting
+bot.rb:22:in `sleep': Interrupt
+	from bot.rb:22:in `<main>'
