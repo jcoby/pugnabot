@@ -12,10 +12,10 @@ irc:
   port: 6667
 
   nick: TF2Pug-Bot
-  channel: '#tf2.pug.na'
+  channel: '#tf2.pug.na.beta'
 
-  auth: Aristotlepugbot
-  auth_password: fzcNNSel
+  auth: 
+  auth_password:
   auth_serv: AuthServ@Services.GameSurge.net
 
 messengers:
@@ -52,36 +52,36 @@ servers:
     ip: chicago1.tf2pug.com
     port: 27015
     password: tf2pug
-    rcon: 5HgZKzgs
+    rcon: 
     ftp:
       ip: chicago1.tf2pug.com
       port: 21
       user: server_chi1tf2pug
-      password: LmOzCmjFLgzZUuFXA35m
+      password: 
       dir: tf
 
   - name: chicago2
     ip: chicago2.tf2pug.com
     port: 27015
     password: tf2pug
-    rcon: 5HgZKzgs
+    rcon:
     ftp:
       ip: chicago2.tf2pug.com
       port: 21
       user: server_chi2tf2pug
-      password: vk6xOxh9lEdik6KPSLHL
+      password:
       dir: tf
 
   - name: dallas1
     ip: dallas1.tf2pug.com
     port: 27015
     password: tf2pug
-    rcon: 5HgZKzgs
+    rcon:
     ftp:
       ip: dallas1.tf2pug.com
       port: 21
       user: server_dal1tf2pug
-      password: CJqV6EeidPDb39w6uoHw
+      password:
       dir: tf
 
 stv:
@@ -90,7 +90,7 @@ stv:
   ftp:
     ip: hosted5.nfoservers.com
     user: chi1tf2pug
-    password: jzCD30aPYo
+    password:
     dir: public/stv
   delete:
     remote: true
@@ -102,7 +102,7 @@ logs:
   ftp:
     ip: hosted5.nfoservers.com
     user: chi1tf2pug
-    password: jzCD30aPYo
+    password:
     dir: public/logs
   delete:
     remote: true
